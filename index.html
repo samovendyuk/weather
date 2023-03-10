@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <img class="point" src="./asserts/place.png" alt="point" />
+        <input type="text" placeholder="Enter your city" />
+        <button class="find">
+          <img src="./asserts/magnifying_glass.png" alt="find" />
+        </button>
+      </div>
+
+      <div class="not-found">
+        <img class="not" src="./asserts/not_found.png" />
+        <p>Oops! Invalid location</p>
+      </div>
+
+      <div class="weather-box">
+        <img src="" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+
+      <div class="weather-details">
+        <div class="humidity">
+          <img src="./asserts/humidity.png" />
+          <div class="text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="wind-speed">
+          <img src="./asserts/wind.png" />
+          <div class="text">
+            <span></span>
+            <p>Wind-speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
